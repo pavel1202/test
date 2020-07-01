@@ -1,7 +1,11 @@
+.pop-up-success{
+    height: 100vh;
+}
 .pop-up-success__container{
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     height: 100vh;
+    overflow: hidden;
 }

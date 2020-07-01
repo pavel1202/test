@@ -384,6 +384,8 @@
 .pop-up-window__submit-button{
     position: relative;
 
+    display: block;
+
     padding-top: 32px;
     padding-bottom: 30px;
     padding-left: 45px;
@@ -391,8 +393,9 @@
     text-transform: uppercase;
     color: white;
 
-    border: none;
+    
     border-radius: 60px;
+    border: none;
 
     background-color: #F5A3A7;
     box-shadow: 0 5px #D7747A;
@@ -406,7 +409,7 @@
 
       text-decoration: none;
 
-      border-radius: 3.8;
+      border-radius: 3.8vw;
 
       box-shadow: 0 .32vw #D7747A;
   }
@@ -415,7 +418,7 @@
   text-decoration: none;
   color: white;
   
-  box-shadow: 0 0 #D7747A;
+  box-shadow: 0 0px #D7747A;
     
 }
 .pop-up-window__submit-button-text{
