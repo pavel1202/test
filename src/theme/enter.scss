@@ -1,0 +1,26 @@
+@import "./global.scss";
+@import "./normalize.scss";
+
+@import "~bootstrap/scss/bootstrap";
+//-------------------fonts----------------------
+@import url('../fonts/fonts.scss');
+
+
+
+//---------------------pages---------------------
+
+@import "../pages/index/index.scss";
+@import "../pages/pop-up-form/pop-up-form.scss";
+@import "../pages/pop-up-success/pop-up-success.scss";
+
+//---------------------blocks--------------------
+@import "../blocks/header/header.scss";
+@import "../blocks/menu/menu.scss";
+@import "../blocks/pop-up-window/pop-up-window.scss";
+@import "../blocks/pop-up-order-accepted/pop-up-order-accepted.scss";
+
+
+
+
+
+
