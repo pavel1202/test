@@ -23,14 +23,6 @@ const config = {
         filename: 'index.html',
       template: './src/pages/index/index.pug'
     }),
-    new HtmlWebpackPlugin({
-        filename: 'pop-up-form.html',
-      template: './src/pages/pop-up-form/pop-up-form.pug'
-    }),
-    new HtmlWebpackPlugin({
-        filename: 'pop-up-success.html',
-      template: './src/pages/pop-up-success/pop-up-success.pug'
-    }),
   ],
   module: {
     rules: [

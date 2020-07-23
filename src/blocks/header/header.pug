@@ -1,56 +1,6 @@
 header.header
-    .header__wrapper(style = "background:url('./img/girl.png') no-repeat right bottom;background-size: 56.3vw;")
-        .header__clouds
-            .header__cloud(style = "background-image:url('./img/cloud.png');")
-            .header__cloud1(style = "background-image:url('./img/cloud1.png');")
-        .header__container
-            sec.header__head
-                .header__logo
-                    .header__logo-img(style = "background-image:url('./img/logo.png') ")
-                    p.header__logo-subtitle Студия депиляции и массажный кабинет в Бресте
-                .header__addres
-                    .header__addres-map(style = "background-image:url('./img/map.png')")
-                    .header__addres-conteiner
-                        .header__addres-title Мы находимся в центре:
-                        .header__addres-subtitle  г. Брест, ул. Гоголя, д.65
-                        a(href="#").header__addres-link Смотреть на карте
-                             script(type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A5b272ed3944a16dac8e4ecde699c5853219d85584f0a1cc18c1ab1c645722180&amp;width=500&amp;height=400&amp;lang=ru_RU&amp;scroll=true")
-                .header__contacts
-                    .header__phone
-                        .header__phone-img(style = "background-image:url('./img/phone.png')")
-                        .header__phone-conteiner
-                            .header__phone-subtitle Звоните, мы сейчас работаем
-                            .header__phone-title +375 33 382 24 99
-                    .header__time
-                        .header__time-img(style = "background-image:url('./img/time.png')")
-                        .header__time-title Пн-Вс 9:00-21:00
-                a(href="./pop-up-form.html").header__sign-up 
-                    .header__sign-up-img(style = "background-image:url('./img/calendar.png')")
-                    .header__sign-up-title Записаться онлайн
-            include ../menu/menu
-            .header__offer
-                .header__offer-title 
-                    p Хотите избавиться от
-                    strong  нежелательных волос 
-                    p или нужен сеанс 
-                    strong антицеллюлитного массажа?
-                .header__content
-                    .header__service-and-get-customer-card
-                        ul.header__services
-                            li.header__service депиляция воском и Шугаринг; 
-                            li.header__service профессиональные сертифицированные мастера;
-                            li.header__service работаем с женщинами, и с мужчинами;
-                            li.header__service результат уже после первой процедуры.
-                        a(href="./pop-up-form.html").header__get-customer-card
-                            p.header__get-customer-card-text ПОЛУЧИТЬ КАРТУ КЛИЕНТА БЕСПЛАТНО
-                            .header__get-customer-card-img(style = "background-image:url('./img/branch.png')")
-                    .header__customer-card-and-prompt
-                        .header__customer-card(style = "background-image:url('./img/customer-card.png')")
-                        .header__prompt-container
-                            .header__customer-card-icon(style = "background-image:url('./img/prompt-icon.png')")
-                            .header__prompt(style = "background-image:url('./img/prompt.png')") Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vel provident corrupti eos ipsa, suscipit
-                            
-            .header__wave(style = "background-image:url('./img/wave.png');")
-                .header__arrow-down-container
-                    button.header__arrow-down(style = "background-image:url('./img/arrow-down.png');")
-                
+    h1.header__title POTENCIALEX
+    .space
+    iframe.header__video( src="https://www.youtube.com/embed/Fzluf7eDszo?start=60&autoplay=1&loop=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    .space
+    <button type="button" class="header__order scroll_down" id="scroll_down">ORDER</button>
